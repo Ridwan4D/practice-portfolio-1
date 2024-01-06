@@ -8,20 +8,17 @@ body {
 /* common style end here */
 
 /* header part start here */
-.header {}
-
-.header img {
+.header>img {
     width: 100%;
     height: 100vh;
 }
 
 .header-content {
-    margin: 10px 130px 0;
+    padding: 10px 130px 0;
     color: #fff;
     width: 490px;
     float: right;
     text-align: right;
-    z-index: 100;
     position: relative;
     top: -570px;
 }
@@ -46,3 +43,55 @@ body {
 
 /* header part end here */
 
+/* main parst srart */
+main {
+    margin: 130px 130px;
+}
+
+/* fail part start here */
+.section-fail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.fail-col-1 img {
+    margin-left: 150px;
+    width: 450px;
+}
+
+.fail-col-1 {
+    width: 50%;
+}
+
+.fail-col-2 {
+    width: 50%;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.fail-col-2 .sec-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.fail-col-2 .sec-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fail-col-2 ul{
+    margin: 17px 0;
+    padding: 0;
+}
+.fail-col-2 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.fail-col-2 li img{
+    width: 15px;
+}
+/* fail part end here */

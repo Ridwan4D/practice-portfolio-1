@@ -137,3 +137,47 @@ main {
     font-weight: 500;
     margin-top: 10px;
 }
+
+/*  my plan section start here */
+
+/* background-img section start here */
+.gradient-section {
+    margin: 0 130px;
+}
+
+#bg-img {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    background-image: url("./images/watch.png");
+}
+#bg-img img{
+    width: 985px;
+    height: 298px;
+}
+
+.gradient-text {
+    position: relative;
+    bottom: 319px;
+    width: 400px;
+    margin: 80px 65px 0;
+}
+
+.gradient-text h3 {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.call-btn {
+    border: 0;
+    padding: 10px 25px;
+    margin: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* background-img section start here */
